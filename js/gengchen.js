@@ -244,13 +244,28 @@ kcap2019_pt.bindPopup(`
 	
 	`);
 
-var adss2019_pt = L.marker([34.423443, -119.709247]).addTo(mymap);
-adss2019_pt.bindPopup(`
+var sdss2019_pt = L.marker([34.423443, -119.709247]).addTo(mymap);
+sdss2019_pt.bindPopup(`
 	<div class="row" style="margin-top:-20px">
 		<p class="col-md-7"><b>2019/12/09 - 2019/12/11</b></p>
 		<p class="col-md-5"><b>SDSS 2019</b></p>
 	</div>
 	<img class="popupImg" src="img/footprint/23-SDSS2019_1.JPG" >
 	<img class="popupImg" src="img/footprint/23-SDSS2019_2.JPG" >
+	
+	`);
+
+
+var phd2021_pt = L.marker([34.41, -119.845]).addTo(mymap);
+phd2021_pt.bindPopup(`
+	<div class="row" style="margin-top:-20px">
+		<p class="col-md-7"><b>2021/06/14</b></p>
+		<p class="col-md-5"><b>Gengchen Mai's Final PhD Defense</b></p>
+	</div>
+	<img class="popupImg" src="img/footprint/24-PhD-Defense2021_1.png" >
+	<img class="popupImg" src="img/footprint/24-PhD-Defense2021_2.png" >
+	<img class="popupImg" src="img/footprint/24-PhD-Defense2021_3.png" >
+	<img class="popupImg" src="img/footprint/24-PhD-Defense2021_4.JPG" >
+	
 	
 	`);
