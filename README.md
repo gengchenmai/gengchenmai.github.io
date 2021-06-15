@@ -1,3 +1,0 @@
-# [Homepage of Gengchen Mai](http://www.geog.ucsb.edu/~gengchen_mai/)
-
-My name is Gengchen Mai, a Ph.D. candidate at Space and Time for Knowledge Organization Lab, Department of Geography, University of California, Santa Barbara. My Ph.D. adviser is Prof. Krzysztof Janowicz. I am interested in Geographic Question Answering, NLP, Geographical Information Science (GIScience), Geographic Information Retrieval, Machine Learning/Deep Learning, and Semantic Web. Right now, my research is highly focused on geographic question answering and spatially explcit machine learninig models. I have completed three machine learning research based internships at Esri Inc., SayMosaic Inc., Apple Map.
