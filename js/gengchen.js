@@ -275,7 +275,7 @@ var stanfordai2022_pt = L.marker([37.43, -122.173]).addTo(mymap);
 stanfordai2022_pt.bindPopup(`
 	<div class="row" style="margin-top:-20px">
 		<p class="col-md-3"><b>2021/10/01</b></p>
-		<p class="col-md-9"><b>Postdoc at Stanford AI Lab, Ermon's Group</b></p>
+		<p class="col-md-9"><b>Postdoc at Ermon's Group, Stanford AI Lab</b></p>
 	</div>
 	<img class="popupImg" src="img/footprint/25-Stanford-Gates.jpg" >
 	
