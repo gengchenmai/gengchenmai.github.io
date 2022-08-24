@@ -279,10 +279,20 @@ stanfordai2022_pt.bindPopup(`
 	</div>
 	<img class="popupImg" src="img/footprint/25-Stanford-Gates.jpg" >
 	
-	`).openPopup(); 
+	`); 
 
 // <div class="row" style="margin-top:-20px">
 // 	<img class="popupImg col-md-5" style="height:150px;width:auto" src="img/footprint/25-Stanford-Gates.jpg" >
 // 	<img class="popupImg col-md-5" style="height:250px;width:auto" src="img/footprint/25-Stanford-office.jpg" >
 // <img class="popupImg col-md-5" style="height:250px;width:auto" src="img/footprint/25-Stanford-selfie.JPG" >
 // 	</div>
+
+var uga2022_pt = L.marker([33.949, -83.375]).addTo(mymap);
+uga2022_pt.bindPopup(`
+	<div class="row" style="margin-top:-20px">
+		<p class="col-md-3"><b>2022/08/01</b></p>
+		<p class="col-md-9"><b>Tenure-track Assistant Professor at Department of Geography, University of Georgia</b></p>
+	</div>
+	<img class="popupImg" src="img/footprint/26-UGA-Arch.jpg" >
+	
+	`).openPopup(); 
