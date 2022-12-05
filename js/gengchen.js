@@ -296,3 +296,35 @@ uga2022_pt.bindPopup(`
 	<img class="popupImg" src="img/footprint/26-UGA-Arch.jpg" >
 	
 	`).openPopup(); 
+
+
+var uwgeoai2022_pt = L.marker([47.656622152544756, -122.30718210180216]).addTo(mymap);
+sigspatial2022_pt.bindPopup(`
+	<div class="row" style="margin-top:-20px">
+		<p class="col-md-3"><b>2022/10/31</b></p>
+		<p class="col-md-9"><b>University of Washington Frontier of GeoAI</b></p>
+	</div>
+	<img class="popupImg" src="img/footprint/27-UW-GeoAI.JPG" >
+	
+	`); 
+
+
+var sigspatial2022_pt = L.marker([47.61085272910812, -122.34730954228267]).addTo(mymap);
+sigspatial2022_pt.bindPopup(`
+	<div class="row" style="margin-top:-20px">
+		<p class="col-md-3"><b>2022/11/01</b></p>
+		<p class="col-md-9"><b>ACM SIGSPATIAL 2022</b></p>
+	</div>
+	<img class="popupImg" src="img/footprint/28-SIGSPATIAL2022.JPG" >
+	
+	`); 
+
+var nips2022_pt = L.marker([29.93691304859888, -90.06316396868732]).addTo(mymap);
+sigspatial2022_pt.bindPopup(`
+	<div class="row" style="margin-top:-20px">
+		<p class="col-md-3"><b>2022/11/29</b></p>
+		<p class="col-md-9"><b>NeurIPS 2022</b></p>
+	</div>
+	<img class="popupImg" src="img/footprint/29-NeurIPS2022.jpg" >
+	
+	`); 
