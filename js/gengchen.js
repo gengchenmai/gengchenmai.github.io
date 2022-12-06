@@ -306,7 +306,7 @@ uwgeoai2022_pt.bindPopup(`
 	</div>
 	<img class="popupImg" src="img/footprint/27-UW-GeoAI.JPG" >
 	
-	`).openPopup(); 
+	`); 
 
 
 var sigspatial2022_pt = L.marker([47.612, -122.349]).addTo(mymap);
