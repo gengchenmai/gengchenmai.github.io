@@ -298,32 +298,42 @@ uga2022_pt.bindPopup(`
 	`).openPopup(); 
 
 
-var uwgeoai2022_pt = L.marker([47.656622152544756, -122.30718210180216]).addTo(mymap);
-sigspatial2022_pt.bindPopup(`
+var uwgeoai2022_pt = L.marker([47.65662215, -122.3071821]).addTo(mymap);
+uwgeoai2022_pt.bindPopup(`
 	<div class="row" style="margin-top:-20px">
-		<p class="col-md-3"><b>2022/10/31</b></p>
-		<p class="col-md-9"><b>University of Washington Frontier of GeoAI</b></p>
+		<p class="col-md-6"><b>2022/10/31</b></p>
+		<p class="col-md-6"><b>University of Washington Frontier of GeoAI</b></p>
 	</div>
 	<img class="popupImg" src="img/footprint/27-UW-GeoAI.JPG" >
 	
-	`); 
+	`).openPopup(); 
 
 
-var sigspatial2022_pt = L.marker([47.61085272910812, -122.34730954228267]).addTo(mymap);
+var sigspatial2022_pt = L.marker([47.612, -122.349]).addTo(mymap);
 sigspatial2022_pt.bindPopup(`
 	<div class="row" style="margin-top:-20px">
-		<p class="col-md-3"><b>2022/11/01</b></p>
-		<p class="col-md-9"><b>ACM SIGSPATIAL 2022</b></p>
+		<p class="col-md-6"><b>2022/11/01 - 2022/11/04</b></p>
+		<p class="col-md-6"><b>ACM SIGSPATIAL 2022</b></p>
 	</div>
 	<img class="popupImg" src="img/footprint/28-SIGSPATIAL2022.JPG" >
 	
 	`); 
 
+// var acm2018_pt = L.marker([47.610823, -122.347271]).addTo(mymap);
+// acm2018_pt.bindPopup(`
+// 	<div class="row" style="margin-top:-20px">
+// 		<p class="col-md-7"><b>2018/10/15 - 2018/10/18</b></p>
+// 		<p class="col-md-5"><b>ACM SIGSPATIAL 2018</b></p>
+// 	</div>
+// 	<img class="popupImg" src="img/footprint/18-ACMSIGSPATIAL2018.JPG" >
+	
+// 	`);
+
 var nips2022_pt = L.marker([29.93691304859888, -90.06316396868732]).addTo(mymap);
-sigspatial2022_pt.bindPopup(`
+nips2022_pt.bindPopup(`
 	<div class="row" style="margin-top:-20px">
-		<p class="col-md-3"><b>2022/11/29</b></p>
-		<p class="col-md-9"><b>NeurIPS 2022</b></p>
+		<p class="col-md-6"><b>2022/11/28 - 2022/12/03</b></p>
+		<p class="col-md-6"><b>NeurIPS 2022</b></p>
 	</div>
 	<img class="popupImg" src="img/footprint/29-NeurIPS2022.jpg" >
 	
