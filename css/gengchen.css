@@ -55,6 +55,8 @@ body {
     font-size: 50px;
 }
 
+
+
 footer {
     margin: 50px 0;
 }
@@ -213,4 +215,20 @@ hr.vertical {
   width: 0px;
   height: 100%;
   /* or height in PX */
+}
+
+shrtconf{
+  background-color: blue;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+shrtjournal{
+  background-color: orange;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px;
 }
