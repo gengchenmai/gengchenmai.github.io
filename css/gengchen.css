@@ -217,7 +217,18 @@ hr.vertical {
   /* or height in PX */
 }
 
+/*div.shrt{
+  width: 150px;
+  max-width:150px;
+  background-color: blue;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px;
+}*/
+
 shrtconf{
+  inline-size: 150px;
   background-color: blue;
   color: white;
   padding: 4px 8px;
@@ -226,6 +237,7 @@ shrtconf{
 }
 
 shrtjournal{
+  inline-size: 150px;
   background-color: orange;
   color: white;
   padding: 4px 8px;
